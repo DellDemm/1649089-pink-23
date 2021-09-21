@@ -1,12 +1,139 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="page">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="/source/css/style.css">
     <title>HTML Academy: Пинк</title>
   </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
-
+  <body class="page__body">
+    <header class="page__header">
+      <a href="#" class="logo">
+        <img src="../source/img/icons/logo.svg" alt="Logo pink Company" class="logo-image" width="74" height="23">
+      </a>
+      <button class="open-menu-btn button">
+        <span>Открыть меню</span>
+      </button>
+      <button class="close-menu-btn button">
+        <span>Закрыть меню</span>
+      </button>
+        <nav class="page__nav nav">
+          <ul class="nav-list">
+            <li class="nav-list__item">
+              <a href="#" class="links">главная</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="..catalog.html" class="links">Фотографии</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="..form.html" class="links">конкурс</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="https://htmlacademy.ru" class="links">html academy</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="page__download-container">
+          <button>Скачать приложение</button>
+          <div class="container">
+            <img src="/source/img/icons/apple-logo.png" alt="Скачать на IOS" class="icons" width="47" height="56">
+            <img src="/source/img/icons/android-logo.png" alt="Скачать на Android" class="icons" width="43" height="47">
+            <img src="/source/img/icons/microsoft-logo.png" alt="Скачать на Microsoft" class="icons" width="44" height="41">
+            <p class="text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+          </div>
+        </div>
+      </header>
+      <div class="main-container">
+        <main class="page__main">
+          <div class="information">
+            <h2 class="information__title">Устали от серости мегаполиса? Нам есть, что вам предложить!</h2>
+            <section class="advantages">
+              <section class="advantages__mood">
+                <h3 class="advantages__title">Поднимает настроение</h3>
+                <p class="adrvantages__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+              </section>
+              <section class="advantages__change">
+                <h3 class="advantages__title">Меняет мир вокруг</h3>
+                <p class="advantages__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+              </section>
+              <section class="advantages__frends">
+                <h3 class="advantages__title">Заводит новых друзей</h3>
+                <p class="advantages__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+              </section>
+              <img src="/source/img/iphone-3.png" alt="Картинка с отзывом" class="advantages__image">
+            </section>
+            <section class="reviews">
+              <h3 class="reviews__title">Николай Петров</h3>
+              <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+            </section>
+            <section class="prices">
+              <table class="prices__table">
+                <tr>
+                  <th></th>
+                  <th>База<br>1,99 USD</th>
+                  <th>СТАНДАРТ<br>3,99 USD</th>
+                  <th>АНЛИМ<br>9,99 USD</th>
+                </tr>
+                <tr>
+                  <td>Розовый фильтр</td>
+                  <td><img src="/source/img/icons/yes.png" alt="Да"></td>
+                  <td><img src="/source/img/icons/yes.png" alt="Да"></td>
+                  <td><img src="/source/img/icons/yes.png" alt="Да"></td>
+                </tr>
+                <tr>
+                  <td>Смайлики</td>
+                  <td><img src="/source/img/icons/no.png" alt="Нет"></td>
+                  <td><img src="/source/img/icons/yes.png" alt="Да"></td>
+                  <td><img src="/source/img/icons/yes.png" alt="Да"></td>
+                </tr>
+                <tr>
+                  <td>Комментарии</td>
+                  <td><img src="/source/img/icons/no.png" alt="Нет"></td>
+                  <td><img src="/source/img/icons/no.png" alt="Нет"></td>
+                  <td><img src="/source/img/icons/yes.png" alt="Да"></td>
+                </tr>
+              </table>
+            </section>
+            <section class="contacts">
+              <h2 class="contacts__title">Остались вопросы? Свяжитесь с нами!</h2>
+              <h3 class="contacts__subtitle">Звоните:</h3>
+              <p class="contacts__text">+7 (812) 555-66-66</p>
+              <h3 class="contacts__subtitle">Пишите:</h3>
+              <p class="contacts__text">mail@htmlacademy.ru</p>
+              <h3 class="contacts__subtitle">Приезжайте в гости:</h3>
+              <p class="contacts__text">ул. Большая Конюшенная, 19/8</p>
+              <img src="/source/img/map.png" alt="Карта по которой можно нас найти" class="contacts__map">
+            </section>
+          </div>
+        </main>
+      </div>
+      <footer class="page__footer footer">
+        <section class="footer__logos">
+          <img src="/source/img/icons/glasses.png" alt="Логотип компании">
+          <img src="/source/img/icons/pink.svg" alt="">
+        </section>
+        <section class="footer__social">
+          <ul class="social-list">
+            <li class="social-list__item">
+              <a href="#" class="social-list__link">
+                <img src="/source/img/icons/twitter.png" alt="Ссылка на наш Twitter" class="social-lis__icon">
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="" class="social-list__link">
+                <img src="/source/img/icons/facebook.png" alt="Ссылка на наш Facebook" class="social-lis__icon">
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="" class="social-list__link">
+                <img src="/source/img/icons/youtube.png" alt="Ссылка на наш Youtube" class="social-lis__icon">
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="footer__developed">
+          <p class="footer__text">Разработано</p>
+          <img src="/source/img/icons/html-academy.png" alt="" class="footer__image">
+        </section>
+      </footer>
   </body>
 </html>
